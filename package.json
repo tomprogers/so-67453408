@@ -1,0 +1,36 @@
+{
+	"name": "so-67453408",
+	"version": "1.0.0",
+	"description": "Minimally viable reproduction repo",
+	"license": "PRIVATE",
+	"private": true,
+	"main": "src/main.js",
+	"scripts": {
+		"start": "webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.config.js --mode development --info false"
+	},
+	"author": {
+		"name": "Tom Rogers",
+		"email": "tom@roguevendor.com",
+		"url": "https://github.com/tomprogers"
+	},
+	"keywords": [
+		"electron",
+		"phaser"
+	],
+	"engines": {
+		"node": ">=9.0.0",
+		"npm": ">=5.0.0",
+		"yarn": ">=1.0.0"
+	},
+	"devDependencies": {
+		"electron": "^9.2.0",
+		"electron-packager": "^14.2.1",
+		"html-webpack-plugin": "^4.4.1",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.2"
+	},
+	"dependencies": {
+		"phaser": "^3.54.0"
+	}
+}
